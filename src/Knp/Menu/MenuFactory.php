@@ -63,7 +63,7 @@ class MenuFactory implements FactoryInterface
      * @param ExtensionInterface $extension
      * @param integer            $priority
      */
-    public function addExtension(ExtensionInterface $extension, $priority = 0)
+    public function addExtension( $extension, $priority = 0)
     {
         $this->extensions[$priority][] = $extension;
         $this->sorted = null;
