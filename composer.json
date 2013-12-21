@@ -1,5 +1,5 @@
 {
-    "name":         "debit/knp-menu",
+    "name":         "devit/knp-menu",
     "type":         "library",
     "description":  "An object oriented menu library",
     "keywords":     ["menu", "tree"],
